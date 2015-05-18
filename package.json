@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-load-plugins": "^0.10.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^1.0.0",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-wrap": "^0.11.0",
+    "node-notifier": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "gulp clean && gulp server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
